@@ -11,7 +11,9 @@
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "feather-icons": "^3.2.2",
-    "popper.js": "^1.12.5"
+    "jquery": "^3.0.0",
+    "mdbootstrap": "^4.4.1",
+    "smoothscroll": "^0.3.0"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
