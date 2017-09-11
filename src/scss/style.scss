@@ -4,35 +4,61 @@
 
 html, body {
   height: 100%;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder;
 }
 
 h1 {
   font-size: 6vw;
-  font-weight: bolder;
 }
 h2 {
   font-size: 5vw;
 }
 h3 {
   font-size: 4vw;
-  font-weight: lighter;
 }
 h4 {
   font-size: 3vw;
 }
 
-.bg-dark {
-  background-color: transparent !important;
-}
+.navbar {
+  background-color: #FFF !important;
+  border-bottom: 1px solid #868e96;
+  .navbar-brand {
+    color: #1b1e21;
+    font-weight: bolder;
+    &:hover,
+    &:focus {
+      color: #000 !important;
+    }
+  }
+  .navbar-nav {
+      .active {
+        border-bottom: 6px solid black !important;
+        }
+    }
+    .nav-link {
+      color: #868e96!important;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+  .nav-item {
+        .nav-link {
+         &.active {
+           color: #000 !important;
+         }
+      }
+    }
+  }
 
 
 #hero {
-  background: #FFF;
+  background: lightgray;
   height: 100vh;
-}
-
-button {
-  text-transform: uppercase;
 }
 
 #about {
@@ -53,11 +79,14 @@ button {
   height: 100vh;
 }
 
+#footer {
+  height: 15vh;
+}
+
 .footer ul {
   margin:0 auto;
   margin-bottom:30px;
   margin-top:10px;
-  text-align:center;
   list-style-type:none;
   padding-left:0;
 }
